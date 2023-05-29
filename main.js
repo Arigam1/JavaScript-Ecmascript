@@ -1,7 +1,7 @@
-// DEBUGER .......................
-const building = {
-    price: '$10000000',
-    city: 'Myami'
-}
+Template String
 
-debugger
+const name = 'Max'
+const channelName = 'RED Group'
+
+const result = `${name} [${channelName}]`
+console.log(result)
